@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{% static 'api/icon.jpg'%}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'api/style.css'%}" type="text/css">
+    <title>Prime Diagnostic Center</title>
+</head>
+<body>
+<h1>Prime Diagnostic Center - API</h1>
+
+
+    <a href="{% url 'doctors' %}"> <h2> Doctors</h2> </a>
+
+    <a href="{% url 'appointments' %}"> <h2> Appointments </h2> </a>
+
+    <a href="{% url 'medicines' %}"> <h2>Medicines</h2> </a>
+
+    <a href="{% url 'users' %}"> <h2>Users</h2> </a>
+
+
+</body>
+</html>
