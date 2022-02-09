@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EditMedicineFragment">
+
+
+        <EditText
+            android:id="@+id/medicine_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Medicine Name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/medicine_detail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Medicine Detail"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="@+id/medicine_name"
+            app:layout_constraintStart_toStartOf="@+id/medicine_name"
+            app:layout_constraintTop_toBottomOf="@+id/medicine_name" />
+
+        <EditText
+            android:id="@+id/medicine_price"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Medicine Price"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/medicine_detail"
+            app:layout_constraintStart_toStartOf="@+id/medicine_detail"
+            app:layout_constraintTop_toBottomOf="@+id/medicine_detail" />
+
+        <Button
+            android:id="@+id/update_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Update Medicine"
+            app:layout_constraintStart_toStartOf="@+id/medicine_price"
+            app:layout_constraintTop_toBottomOf="@+id/medicine_price" />
+
+        <Button
+            android:id="@+id/delete_medicin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:text="Delete"
+            app:layout_constraintBottom_toBottomOf="@+id/update_medicine"
+            app:layout_constraintEnd_toEndOf="@+id/medicine_price"
+            app:layout_constraintTop_toTopOf="@+id/update_medicine" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

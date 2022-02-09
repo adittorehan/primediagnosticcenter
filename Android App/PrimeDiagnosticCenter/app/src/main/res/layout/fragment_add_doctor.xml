@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddDoctorFragment">
+
+        <EditText
+            android:id="@+id/doctor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Doctor Name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_medicine_text" />
+
+        <EditText
+            android:id="@+id/doctor_designation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Doctor Designation"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/doctor_name"
+            app:layout_constraintStart_toStartOf="@+id/doctor_name"
+            app:layout_constraintTop_toBottomOf="@+id/doctor_name" />
+
+        <EditText
+            android:id="@+id/doctor_department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Doctor Department"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/doctor_designation"
+            app:layout_constraintStart_toStartOf="@+id/doctor_designation"
+            app:layout_constraintTop_toBottomOf="@+id/doctor_designation" />
+
+        <TextView
+            android:id="@+id/add_medicine_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Add Doctor"
+            android:textColor="@color/blue_500"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/add_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Add Doctor"
+            app:layout_constraintEnd_toEndOf="@+id/doctor_department"
+            app:layout_constraintStart_toStartOf="@+id/doctor_department"
+            app:layout_constraintTop_toBottomOf="@+id/doctor_department" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Last Workspace/PrimeDiagnosticCenter/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/appointments_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/blog_view.xml" value="0.19583333333333333" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/booking_appointment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/doctor_view.xml" value="0.22" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_about_us.xml" value="0.3234375" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_add_doctor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_add_medicine.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_admin.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_blog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_blog_list.xml" value="0.19583333333333333" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_book_appointment.xml" value="0.33" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_contact.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_edit_medicine.xml" value="0.246875" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_get_order_medicine_address.xml" value="0.246875" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_make_appointment.xml" value="0.25" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_manage_appointments.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_medicines.xml" value="0.22" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_my_dialog.xml" value="0.203125" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_order_medicine.xml" value="0.25" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/fragment_services.xml" value="0.33958333333333335" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/loading.xml" value="0.203125" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/medicine_admin_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/medicine_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/nav_header.xml" value="0.20520833333333333" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/slider_doctor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/layout/slider_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/Workspace/AndroidProjects/Kotlin/PrimeDiagnosticCenter/app/src/main/res/menu/navdrawer_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

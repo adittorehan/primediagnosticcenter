@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddMedicineFragment">
+
+        <EditText
+            android:id="@+id/medicine_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Medicine Name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_medicine_text" />
+
+        <EditText
+            android:id="@+id/medicine_generic_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Medicine Generic Name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/medicine_name"
+            app:layout_constraintStart_toStartOf="@+id/medicine_name"
+            app:layout_constraintTop_toBottomOf="@+id/medicine_name" />
+
+        <EditText
+            android:id="@+id/medicine_strength"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Medicine Strength"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/medicine_name"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/medicine_name"
+            app:layout_constraintTop_toBottomOf="@+id/medicine_generic_name" />
+
+        <EditText
+            android:id="@+id/medicine_price"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Medicine Price"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/medicine_name"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/medicine_name"
+            app:layout_constraintTop_toBottomOf="@+id/medicine_company" />
+
+        <EditText
+            android:id="@+id/medicine_company"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Medicine Company Name"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="@+id/medicine_name"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/medicine_name"
+            app:layout_constraintTop_toBottomOf="@+id/medicine_strength" />
+
+        <TextView
+            android:id="@+id/add_medicine_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Add Medicine"
+            android:textColor="@color/blue_500"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/add_medicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Add Medicine"
+            app:layout_constraintEnd_toEndOf="@+id/medicine_price"
+            app:layout_constraintStart_toStartOf="@+id/medicine_price"
+            app:layout_constraintTop_toBottomOf="@+id/medicine_price" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Prime Diagnostic Center</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="headers_1">HIGH QUALITY, AND ACCESSIBLE</string>
+    <string name="headers_2">TRUSTED AND FRIENDLY</string>
+    <string name="headers_3">FRIENDLY &amp; AFFORDABLE SERVICES</string>
+
+    <string name="subheaders_1">We aim to deliver for all of our patients</string>
+    <string name="subheaders_2">for every patient of all branches over the country Contrary</string>
+    <string name="subheaders_3">and the most advanced diagnostic center is always with you</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam corporis ea enim eum impedit, maxime mollitia neque quibusdam! Aperiam asperiores autem, consectetur consequuntur corporis cumque deleniti dolores eaque exercitationem fugiat fugit, harum hic ipsa iure laborum magnam maiores nesciunt, nihil nulla officia porro ratione rerum saepe similique sint! Corporis culpa hic in laboriosam maxime modi quisquam reprehenderit totam! Blanditiis commodi doloremque laudantium libero, nisi obcaecati quisquam temporibus totam? Adipisci animi asperiores assumenda commodi consectetur consequatur, cumque delectus deleniti dolor doloremque doloribus eaque enim est excepturi, facere fugiat, harum ipsum iusto nulla optio perspiciatis quas quidem repudiandae suscipit tempore vero voluptatem!</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="emergency_services_text"><![CDATA[An emergency department (ED), also known as an accident & emergency department (A&E), emergency room (ER), emergency ward (EW) or casualty department, is a medical treatment facility specializing in emergency medicine, the acute care of patients who present without prior appointment; either by their own means or by that of an ambulance. The emergency department is usually found in a hospital or other primary care center.]]></string>
+    <string name="experienced_doctors_text">We have a Elite Team of Professionals. Best Doctors creates a collaborative environment where physicians work together to improve outcomes. We do this by creating a report that not only supports the member, but also the treating team, which supports decision making and helps ensure better outcomes.</string>
+    <string name="medical_college_text">Prime Medical College (PMC) Is The First Private Medical College In Bangladesh. It Was Established In 1986 By A Group Of Dedicated People Called The Founder Members Who Were Imbued With The Ideals Of Providing Quality Medical Education, Research And Services To People Of This Country At Reasonable Cost</string>
+    <string name="inside_city_area_text">We provide special services inside city area.</string>
+    <string name="welcome_history_text">Prime Diagnostic Center is a diagnostic center in natore, Bangladesh. It is one of best private diagnostic center in Natore.
+
+Prime Diagnostic Center was founded on 16 December 2006 by Samson H. Chowdhury of Prime Group. It was 300 (Now 400) bed hospital. It was founded in partnership with Methodist Le Bonheur Healthcare, Memphis, Care IVF Centre of Singapore, and Christian Medical College &amp; Hospital, Vellore. It is also partnered with Raffles Hospital.
+
+In 2008, former Prime Minister Sheikh Hasina received medical treatment at Square Hospital while she was detained by the Caretaker Government. On 11 January 2012, the hospital was fined by the Department of Environment over noise pollution from its generators.</string>
+    <string name="best_diagnostic_center_text">WE CARE YOUR HEALTH AND CHECKUP WITH BEST Technology
+Prime Diagnostic Centre Ltd. has a collection of the most advanced medical technologies. All the machineries which are being used here are designed with rigorous safety standards to aid in the diagnosis or treatment of medical problems.</string>
+    <string name="contact_us_text">Contact Us for any type of Medical Services.</string>
+    <string name="footer_text">Copyright \u00a9 All Rights Reserved 2021\n Email Us: info@primediagnosticcenter.com\n Call Us: +8801712–345678</string>
+    <string name="doctor_name_1">John Dhoe</string>
+    <string name="doctor_name_2">Raman Roy</string>
+    <string name="doctor_name_3">Smjhana Bric</string>
+    <string name="doctor_detail_1">Gynaecology</string>
+    <string name="doctor_detail_2">Medicine</string>
+    <string name="doctor_detail_3">Cardiology</string>
+    <string name="register_email_hint">Enter your email</string>
+    <string name="login_password_hint">Enter password</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="register_button_text">Register</string>
+    <string name="already_user_text">Already have an account?</string>
+    <string name="login_text">Log In</string>
+
+
+    <string name="login_button_text">Login</string>
+    <string name="forgot_password_text"><u><b>Forget Password?</b></u></string>
+    <string name="register_text">Don\'t have an account?</string>
+    <string name="create_user_text"><u><b>Create Here</b></u></string>
+    <string name="login_email_hint">Enter your registered email</string>
+
+
+    <string name="prime_diagnostic_center">Prime Diagnostic Center</string>
+    <string name="help_text">Welcome, please tap the phone icon to call the helpline?</string>
+    <string name="order_medicine_text">Order Medicine</string>
+    <string name="make_appointment_text">Make Appointment</string>
+    <string name="diagnostics_text">Diagnostic Services</string>
+    <string name="welcome_admin_text">Welcome Admin</string>
+
+    <string name="about_us_header1">
+        <b>Who we are</b> </string>
+    <string name="about_us_para1">Suggested text: Our website address is: <a>http://primediagnostic.unaux.com.</a></string>
+
+    <string name="about_us_header2"><b>Comments</b></string>
+    <string name="about_us_para2">Suggested text: When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
+
+An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.
+    </string>
+
+    <string name="about_us_header3"><b>Media</b></string>
+    <string name="about_us_para3">Suggested text: If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</string>
+
+    <string name="about_us_header4"><b>Cookies</b></string>
+    <string name="about_us_para4">Suggested text: If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
+
+If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
+
+When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
+
+        If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.</string>
+
+    <string name="about_us_header5"><b>Embedded content from other websites</b></string>
+    <string name="about_us_para5">Suggested text: Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+
+    These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.</string>
+
+    <string name="about_us_header6"><b>Who we share your data with</b></string>
+    <string name="about_us_para6">Suggested text: If you request a password reset, your IP address will be included in the reset email.</string>
+
+    <string name="about_us_header7"><b>How long we retain your data</b></string>
+    <string name="about_us_para7">Suggested text: If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
+
+For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
+        </string>
+
+    <string name="about_us_header8"><b>What rights you have over your data</b></string>
+    <string name="about_us_para8">Suggested text: If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.</string>
+
+    <string name="about_us_header9"><b>Where we send your data</b></string>
+    <string name="about_us_para9">
+        Suggested text: Visitor comments may be checked through an automated spam detection service.</string>
+</resources>

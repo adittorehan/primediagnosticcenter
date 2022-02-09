@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    android:label="Make Appointment"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.primediagnosticcenter.screens.homepage.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_makeAppointmentFragment"
+            app:destination="@id/makeAppointmentFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_orderMedicineFragment"
+            app:destination="@id/orderMedicineFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_servicesFragment"
+            app:destination="@id/servicesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_blogListFragment"
+            app:destination="@id/blogListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/makeAppointmentFragment"
+        android:name="com.example.primediagnosticcenter.screens.appointment.MakeAppointmentFragment"
+        android:label="Make Appointment"
+        tools:layout="@layout/fragment_make_appointment" >
+        <action
+            android:id="@+id/action_makeAppointmentFragment_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.primediagnosticcenter.screens.contact.ContactFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact"/>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.primediagnosticcenter.screens.user.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.primediagnosticcenter.screens.user.LoginFragment"
+        tools:layout="@layout/fragment_login"
+        android:label="Log In">
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_adminFragment"
+            app:destination="@id/adminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/medicinesFragment"
+        android:name="com.example.primediagnosticcenter.screens.admin.MedicinesFragment"
+        android:label="Medicines"
+        tools:layout="@layout/fragment_medicines">
+        <action
+            android:id="@+id/action_medicinesFragment_to_addMedicineFragment"
+            app:destination="@id/addMedicineFragment" />
+        <action
+            android:id="@+id/action_medicinesFragment_to_editMedicineFragment"
+            app:destination="@id/editMedicineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="com.example.primediagnosticcenter.screens.admin.AdminFragment"
+        tools:layout="@layout/fragment_admin"
+        android:label="AdminFragment" >
+        <action
+            android:id="@+id/action_adminFragment_to_medicinesFragment"
+            app:destination="@id/medicinesFragment" />
+        <argument
+            android:name="id"
+            app:argType="long"
+            android:defaultValue="0L" />
+        <action
+            android:id="@+id/action_adminFragment_to_manageAppointmentsFragment"
+            app:destination="@id/manageAppointmentsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMedicineFragment"
+        android:name="com.example.primediagnosticcenter.screens.admin.AddMedicineFragment"
+        android:label="Add Medicine" />
+    <fragment
+        android:id="@+id/editMedicineFragment"
+        android:name="com.example.primediagnosticcenter.screens.admin.EditMedicineFragment"
+        android:label="Update Medicine">
+        <argument
+            android:name="medicineId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderMedicineFragment"
+        android:name="com.example.primediagnosticcenter.screens.ordermedicine.OrderMedicineFragment"
+        android:label="Order Medicine">
+        <action
+            android:id="@+id/action_orderMedicineFragment_to_getOrderMedicineAddressFragment"
+            app:destination="@id/getOrderMedicineAddressFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/getOrderMedicineAddressFragment"
+        android:name="com.example.primediagnosticcenter.screens.ordermedicine.GetOrderMedicineAddressFragment"
+        android:label="Confirm Order">
+        <argument
+            android:name="orderlist"
+            app:argType="com.example.primediagnosticcenter.screens.ordermedicine.MedicineOrder[]" />
+        <action
+            android:id="@+id/action_getOrderMedicineAddressFragment_to_myDialogFragment"
+            app:destination="@id/myDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.example.primediagnosticcenter.screens.about_us.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/servicesFragment"
+        android:name="com.example.primediagnosticcenter.screens.services.ServicesFragment"
+        android:label="Our Services"
+        tools:layout="@layout/fragment_services" />
+    <fragment
+        android:id="@+id/bookAppointmentFragment"
+        android:name="com.example.primediagnosticcenter.screens.appointment.BookAppointmentFragment"
+        android:label="BookAppointmentFragment"
+        tools:layout="@layout/fragment_book_appointment">
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageAppointmentsFragment"
+        android:name="com.example.primediagnosticcenter.screens.admin.ManageAppointmentsFragment"
+        android:label="ManageAppointmentsFragment" />
+    <fragment
+        android:id="@+id/blogListFragment"
+        android:name="com.example.primediagnosticcenter.screens.blog.BlogListFragment"
+        android:label="Blogs" >
+        <action
+            android:id="@+id/action_blogListFragment_to_blogFragment"
+            app:destination="@id/blogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/blogFragment"
+        android:name="com.example.primediagnosticcenter.screens.blog.BlogFragment"
+        android:label="Blog">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <dialog
+        android:id="@+id/myDialogFragment"
+        android:name="com.example.primediagnosticcenter.MyDialogFragment"
+        android:label="loading"
+        tools:layout="@layout/loading" >
+        <action
+            android:id="@+id/action_myDialogFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/orderMedicineFragment" />
+    </dialog>
+</navigation>
