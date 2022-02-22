@@ -2,6 +2,8 @@ import smtplib
 
 from django.db import models
 
+email = 'youremail'
+email_password = 'email_password'
 
 class Users(models.Model):
     name = models.CharField(max_length=200)
@@ -55,7 +57,7 @@ class Appointment(models.Model):
 
     def set_appointment_status(self, s):
         server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
-        server.login("achmedsabbi@gmail.com", "ditto0072911998/*")
+        server.login(email, email_password)
         msg = "Appointment ID: " + str(
             self.get_appointment_id()) + ". \nYour appointment request with " + self.doctor.name + "is received. We " \
                                                                                                    "will notify you. "
@@ -68,7 +70,7 @@ class Appointment(models.Model):
         SUBJECT = "Appointment Request Status"
         message = 'Subject: {}\n\n{}'.format(SUBJECT, msg)
         try:
-            server.sendmail("achmedsabbi@gmail.com", str(self.user_email), message)
+            server.sendmail(email, str(self.user_email), message)
         except Exception:
             pass
         server.quit()
@@ -102,7 +104,7 @@ class Order(models.Model):
 
     def set_order_status(self, s):
         server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
-        server.login("achmedsabbi@gmail.com", "ditto0072911998/*")
+        server.login(email, email_password)
         msg = "Your order is received. We will notify you."
         if s == 1:
             msg = "Sorry, we can not proceed with your order request."
@@ -113,7 +115,7 @@ class Order(models.Model):
         SUBJECT = "Order Status"
         message = 'Subject: {}\n\n{}'.format(SUBJECT, msg)
         try:
-            server.sendmail("achmedsabbi@gmail.com", self.email, message)
+            server.sendmail(email, self.email, message)
         except Exception:
             pass
         server.quit()
